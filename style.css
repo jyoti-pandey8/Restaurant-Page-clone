@@ -1,0 +1,141 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+body{
+   
+    
+    flex-direction: column;
+    justify-content: space-between;
+    
+        background-image: url("https://images.pexels.com/photos/1510692/pexels-photo-1510692.jpeg?auto=compress&cs=tinysrgb&w=1100");
+        background-color: #cccccc;
+        background-repeat: no-repeat;
+    
+}
+li{
+    list-style: none;
+    cursor:pointer;
+    /* font-family: 'Roboto', sans-serif; */
+    /*  */
+
+}
+/* li{
+    list-style: none;
+    cursor:pointer;
+    /* font-family: 'Roboto', sans-serif; */
+    /*  */
+
+*/
+a{
+    text-decoration: none;
+
+}
+button{
+    background-color:#f70606;
+    padding:4px 10px;
+    cursor:pointer;
+    color:white;
+    border:1px solid white;
+    border-radius:0px;
+    font-weight:700;
+    width:fit-content;
+    border-radius: 5%;
+
+}
+button:hover {
+    background-color:white;
+    color:rgb(18,155,155);
+    border:1px solid black;
+}
+header{
+  padding:15px 0;
+}
+nav {
+    display:flex;
+    width:100%;
+    align-items:center;
+    justify-content: space-around;
+
+
+}
+
+    nav ul{
+        display:flex;
+        align-items: center;
+        gap:30px;
+        font-weight: 500;
+
+    }
+    nav ul li:hover{
+        text-decoration: underline;
+        font-weight:900;
+    }
+    /* .upercenter{
+        align-items: center; */
+  
+    .hero section{
+        display: flex;
+        align-items: center;
+    }
+    .upercenter {
+
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        /* isse hq beech me aagya */
+        align-items: center;
+        justify-content: center;
+        
+        font-size:xx-large;
+        color: #ffff00;
+        /* color: #ff0000; */
+        font-size: 50px;
+        font-weight: 800;
+        
+        margin-bottom: 80px;
+    
+     
+        
+      
+      
+      }
+      .downcenter {
+
+        display:flex;
+        flex-direction: column;
+        width:100%;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        /* margin-bottom: 40px; */
+      
+      }
+      .downcenter button{
+        margin-bottom: 70px;
+        font-size: 24px;
+        
+      }
+/*       
+h1 {
+    color: rgb(255, 255, 0);
+   font-size: 50px;
+   gap: 1px;
+
+  } */
+        
+li {
+    color: rgb(255, 255, 0);
+    /* color: #ff0000; */
+  }
+  /* .btn1{
+    color:#ff0000;
+  } */
+ /* .header nav div btn1 {
+    color: #2a06f7;
+} */
+.logo img{
+    border-radius: 50%;
+    
+}
